@@ -10,7 +10,7 @@ public void draw() {
 	background(0);   
 	stroke(0,255,0);   
 	//line(width/2,height/2,width/2,380);   
-	drawBranches(width/2,height/2,100,3*Math.PI/2);
+	drawBranches(width/2,height,100,3*Math.PI/2);
 } 
 
 public void drawBranches(int x,int y, double branchLength, double angle) {   
